@@ -1,0 +1,64 @@
+{
+  "_args": [
+    [
+      "react-native-scrollable-tab-view-mask-bar@1.0.8",
+      "/Users/DAMAGE/Documents/Automatintestingmobileapp/ew-mobile-app"
+    ]
+  ],
+  "_from": "react-native-scrollable-tab-view-mask-bar@1.0.8",
+  "_id": "react-native-scrollable-tab-view-mask-bar@1.0.8",
+  "_inBundle": false,
+  "_integrity": "sha512-CrFwjrwt35Egsbydn7gwp00YtwAp/7esiemj0cTTSX2vCrzVh6IA6o5G9KzlTy+G72ZUiP7A6Alvt7PI/aJMjA==",
+  "_location": "/react-native-scrollable-tab-view-mask-bar",
+  "_phantomChildren": {
+    "fbjs": "0.8.12",
+    "loose-envify": "1.3.1",
+    "object-assign": "4.1.1"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-scrollable-tab-view-mask-bar@1.0.8",
+    "name": "react-native-scrollable-tab-view-mask-bar",
+    "escapedName": "react-native-scrollable-tab-view-mask-bar",
+    "rawSpec": "1.0.8",
+    "saveSpec": null,
+    "fetchSpec": "1.0.8"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-scrollable-tab-view-mask-bar/-/react-native-scrollable-tab-view-mask-bar-1.0.8.tgz",
+  "_spec": "1.0.8",
+  "_where": "/Users/DAMAGE/Documents/Automatintestingmobileapp/ew-mobile-app",
+  "author": {
+    "name": "WateryEye"
+  },
+  "bugs": {
+    "url": "https://github.com/WaterEye0o/react-native-scrollable-tab-view-mask-bar/issues"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.2",
+    "prop-types": "^15.6.0",
+    "react-timer-mixin": "^0.13.3"
+  },
+  "description": "this is a custom tab bar for react-native-scrollable-tab-view",
+  "homepage": "https://github.com/WaterEye0o/react-native-scrollable-tab-view-mask-bar#readme",
+  "keywords": [
+    "react",
+    "react-native",
+    "scroll",
+    "react-native-scrollable-tab-view"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "react-native-scrollable-tab-view-mask-bar",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WaterEye0o/react-native-scrollable-tab-view-mask-bar.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.8"
+}
