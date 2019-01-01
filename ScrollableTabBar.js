@@ -9,7 +9,8 @@ const {
   Text,
   Platform,
   Dimensions,
-  Image
+  Image,
+  ViewPropTypes
 } = ReactNative;
 const Button = require('./Button');
 const PropTypes = require('prop-types');
@@ -39,13 +40,13 @@ const ScrollableTabBar = createReactClass({
     activeTextColor: PropTypes.string,
     inactiveTextColor: PropTypes.string,
     scrollOffset: PropTypes.number,
-    style: View.propTypes.style,
-    tabStyle: View.propTypes.style,
-    tabsContainerStyle: View.propTypes.style,
+    style: ViewPropTypes.style,
+    tabStyle: ViewPropTypes.style,
+    tabsContainerStyle: ViewPropTypes.style,
     textStyle: Text.propTypes.style,
     renderTab: PropTypes.func,
-    underlineStyle: View.propTypes.style,
-    underlineContainerStyle: View.propTypes.style,
+    underlineStyle: ViewPropTypes.style,
+    underlineContainerStyle: ViewPropTypes.style,
     onScroll: PropTypes.func,
     showMask: PropTypes.bool,
     maskMode: PropTypes.oneOf(['light', 'dark','x-light'])
@@ -184,7 +185,7 @@ const ScrollableTabBar = createReactClass({
   measureTab(page, event) {
     const {x, width, height,} = event.nativeEvent.layout;
     this._tabsMeasurements[page] = {left: x, right: x + width, width, height,};
-    this.updateView({value: this.props.scrollValue._a._value,});
+    this.updateView({value: this.props.scrollValue._value,});
   },
 
   renderLeftMask(){
@@ -302,12 +303,12 @@ const ScrollableTabBar = createReactClass({
       this.setState({_showRightMask: true});
     }
     this.setState({_containerWidth: width,});
-    this.updateView({value: this.props.scrollValue._a._value,});
+    this.updateView({value: this.props.scrollValue._value,});
   },
 
   onContainerLayout(e) {
     this._containerMeasurements = e.nativeEvent.layout;
-    this.updateView({value: this.props.scrollValue._a._value,});
+    this.updateView({value: this.props.scrollValue._value,});
   },
 });
 
@@ -338,4 +339,3 @@ const styles = StyleSheet.create({
     bottom: 0,
   }
 });
-

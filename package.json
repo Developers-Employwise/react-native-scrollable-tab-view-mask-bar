@@ -2,7 +2,7 @@
   "_args": [
     [
       "react-native-scrollable-tab-view-mask-bar@1.0.8",
-      "/Users/DAMAGE/Documents/Automatintestingmobileapp/ew-mobile-app"
+      "/Users/DAMAGE/Documents/EmploywiseAndroidIosReactnative25aug/ew-mobile-app"
     ]
   ],
   "_from": "react-native-scrollable-tab-view-mask-bar@1.0.8",
@@ -30,7 +30,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/react-native-scrollable-tab-view-mask-bar/-/react-native-scrollable-tab-view-mask-bar-1.0.8.tgz",
   "_spec": "1.0.8",
-  "_where": "/Users/DAMAGE/Documents/Automatintestingmobileapp/ew-mobile-app",
+  "_where": "/Users/DAMAGE/Documents/EmploywiseAndroidIosReactnative25aug/ew-mobile-app",
   "author": {
     "name": "WateryEye"
   },
